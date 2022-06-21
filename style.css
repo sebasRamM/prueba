@@ -1,0 +1,54 @@
+/* Selecton universal / restear los estilos por default*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementos en bloque ocupan el 100% de la pantalla */
+/* Elementos en linea solo ocupan el espacio de su contenido */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Formas de agregar estilos a mis etiquetas HTML*/
+
+/* 1 Directamente al selector */
+
+header {
+    background-color: teal;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* 2 Clases - es un atributo que nos permite individualizar a los elementos HTML */
+
+.enlace {
+    color: blue;
+    text-decoration: none;
+}
+
+/* CSS - Hoja de estilos en cascada */
+header nav ul li {
+    list-style-type: none;
+}
+
+/* Varias etiquetas, clases que comparten las misnas propiedades pero no estan en la misma cascada */
